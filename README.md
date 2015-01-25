@@ -10,11 +10,11 @@ Just a simple starting point for apps that require passport auth. Uses:
 
 ## Todo
 - Full local (email) auth strategy and related utils, including:
--- Login
--- Registration
--- Password reset
--- Change password
--- Change email
+  - Login
+  - Registration
+  - Password reset
+  - Change password
+  - Change email
 - Mailer lib setup
 - Decision on including css framework (might leave this out of the boilerplate)
 - Decision on including client-side frameworks beyond handlebars
