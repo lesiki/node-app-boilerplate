@@ -7,6 +7,7 @@ var createHash = function(password){
 module.exports = function(passport) {
 	passport.use('register', new LocalStrategy({ passReqToCallback : true },
 		function(req, username, password, done) {
+			console.log('gonna register!');
 			findOrCreateUser = function(){
 				// find a user in Mongo with provided username
 				User.findOne({'username':username},function(err, user) {
